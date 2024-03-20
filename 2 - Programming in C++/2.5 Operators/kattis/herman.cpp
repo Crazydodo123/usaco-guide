@@ -1,8 +1,5 @@
-#define _USE_MATH_DEFINES
-
 #include <iostream>
 #include <iomanip>
-#include <cmath>
 
 using namespace std;
 
@@ -11,6 +8,6 @@ int main () {
 
     cin >> r;
 
-    cout << setprecision(10) << (r * r * M_PI) << endl;
-    cout << (r * r * 2.0);
+    cout << fixed << setprecision(6) << (r * r * 3.14159265359) << endl;
+    cout << fixed << setprecision(6) << (r * r * 2.0) << endl;
 }
